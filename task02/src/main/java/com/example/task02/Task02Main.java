@@ -11,7 +11,7 @@ public class Task02Main {
 
     static String getSeason(int monthNumber) {
         String[] seasons = {"зима", "весна", "лето", "осень"};
-        int s = monthNumber % 12;        // 12 -> 0, остальные без изменений
+        int s = monthNumber % 12;
         return seasons[s / 3];
 }
 }
